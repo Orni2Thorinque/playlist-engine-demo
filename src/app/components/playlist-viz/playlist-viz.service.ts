@@ -122,8 +122,6 @@ export class PlaylistVizService {
         return finalList;
     }
 }
-}
-
 
 export function getLastIndex(content: Content, contents: Content[]): number {
     return contents.lastIndexOf(content);
